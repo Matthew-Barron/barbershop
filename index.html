@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <title>UrbanFade</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">UrbanFade</a>
+        <img src="assests\images\Barber.png" height="100px" width="100px" />
+
+        <!-- Mobile Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">
+                  Services & Prices 
+              </a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Hairstyles
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fade</a></li>
+                <li><a class="dropdown-item" href="#">Buzz Cut</a></li>
+                <li><a class="dropdown-item" href="#">Beard Trim</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link btn btn-warning text-dark ms-3 px-3" href="#">
+                Book Now
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold text-body-emphasis">
+        UrbanFade <br>Fresh Cuts, Clean Style.</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Quality haircuts, fresh fades, and beard trims done by experienced barbers. Walk in or book your next cut online.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button type="button" id="button1" class="btn btn-primary btn-lg px-4 me-sm-3">
+            Book Now
+          </button>
+          <button type="button" id="button2" class="btn btn-outline-secondary btn-lg px-4">
+             <a class="a-link" href="services.html">View Services </a>
+          </button>
+        </div>
+      </div>
+      <div class="overflow-hidden">
+  <div class="container px-5">
+    <img
+      src="assests/images/hairstyle.jpg" height="300px"
+      class="img-fluid border rounded-3 shadow-lg mb-4"
+      alt="Example image"
+      width="700"
+      height="500"
+      loading="lazy"
+    />
+  </div>
+</div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

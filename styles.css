@@ -1,0 +1,29 @@
+.display-4{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    background-color: #0B2D72 !important;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+}
+#button1:hover {
+    transform: scale(1.05); /* optional: slight zoom effect */
+    cursor: pointer; /* changes cursor to pointer */
+}
+#button2{
+    background-color: #0992C2 !important;
+    transition: 0.3s ease; /* smooth transition */
+}
+/* Hover effect */
+#button2:hover {
+    background-color: #066D91; /* slightly darker blue */
+    transform: scale(1.05); /* optional: slight zoom effect */
+    cursor: pointer; /* changes cursor to pointer */
+}
+.a-link{
+    text-decoration: none;
+    color: white !important;
+}
+.feature img{
+    width:50px;
+    margin-bottom:10px;
+}

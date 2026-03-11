@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+
+    <title>UrbanFade</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">UrbanFade</a>
+        <img
+          src="assests/images/Barber.png"
+          height="100"
+          width="100"
+          alt="Barber logo"
+        />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="services.html"
+                >Services & Prices</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                >Hairstyles</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fade</a></li>
+                <li><a class="dropdown-item" href="#">Buzz Cut</a></li>
+                <li><a class="dropdown-item" href="#">Beard Trim</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-warning text-dark ms-3 px-3" href="#"
+                >Book Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">Our Services</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="feature col">
+          <div class="mb-3">
+            <img
+              src="assests/images/barber-svgrepo-com.svg"
+              width="40"
+              height="40"
+              alt="Haircut icon"
+            />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Precision Haircuts</h3>
+          <p>
+            Get a clean, stylish haircut from our experienced barbers. From
+            fades to modern styles, we make sure you leave looking sharp.
+          </p>
+        </div>
+
+        <div class="feature col">
+          <div class="mb-3">
+            <img
+              src="assests/images/barber-brush-svgrepo-com.svg"
+              width="40"
+              height="40"
+              alt="Shaving icon"
+            />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Classic Shaving</h3>
+          <p>
+            Our barbers specialize in smooth, clean shaves that leave your skin
+            refreshed and perfectly groomed.
+          </p>
+        </div>
+
+        <div class="feature col">
+          <div class="mb-3">
+            <img
+              src="assests/images/appointments-svgrepo-com.svg"
+              width="40"
+              height="40"
+              alt="Booking icon"
+            />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Easy Online Booking</h3>
+          <p>
+            Skip the wait and book your haircut online at a time that suits you.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+      <p class="fs-5 text-body-secondary">
+       At UrbanFade, we offer affordable and transparent pricing for all haircuts, shaves, and grooming services. Whether it’s a classic fade or a stylish trim, we make sure every visit is high-quality and budget-friendly.
+      </p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3 text-bg-primary border-primary ">
+            <h4 class="my-0 fw-normal">Kids</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              R100
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Special discounted prices for children under 12</li>
+              <li>Fun, friendly, and safe environment for kids</li>
+              <li>Professional barbers ensure your child stays comfortable while getting a stylish, precise haircut</li>
+              <li>Flexible booking times for school schedules</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3 text-bg-primary border-primary ">
+            <h4 class="my-0 fw-normal">Adults</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              R140
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+             <li>Clean, modern haircut tailored to your style</li>
+          <li>Classic trims, fades, and contemporary styles</li>
+          <li>Precision and comfort guaranteed</li>
+          <li>Friendly and professional barbers</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Classic Shaving</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              R180
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+             <li>Traditional smooth shave with care</li>
+             <li>Quality tools for a clean, refreshed face</li>
+             <li>Comfortable and precise experience</li>
+             <li>Perfect before special events or meetings</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
